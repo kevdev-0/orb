@@ -5,4 +5,4 @@ Supported Platforms:
 - Twitch (Planned)
 - YouTube (Planned)
 
-If you have any questions or comments, I can be reached directly on [Mastodon](https://mastodon.social/@_kev_dev)
+If you have any questions or comments, I can be reached directly on [Mastodon](https://mastodon.social/@_kev_dev).

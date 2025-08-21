@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqtbv7qv3vh04"]
+
+[ext_resource type="Script" uid="uid://cjirxlpa4lpeu" path="res://addons/orb/platforms/platform.gd" id="1_4588i"]
+
+[node name="Platform" type="Node"]
+script = ExtResource("1_4588i")

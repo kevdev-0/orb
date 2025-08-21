@@ -5,3 +5,7 @@ class_name Shared
 enum PLATFORMS {
 	TWITCH,
 }
+
+enum OAUTH_METHOD {
+	
+}

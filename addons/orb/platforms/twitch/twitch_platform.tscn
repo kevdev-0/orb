@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://t1qj87dug1ch"]
+
+[ext_resource type="PackedScene" uid="uid://bqtbv7qv3vh04" path="res://addons/orb/platforms/platform.tscn" id="1_2jyqk"]
+[ext_resource type="Script" uid="uid://bwkp20r5w58lx" path="res://addons/orb/platforms/twitch/twitch_platform.gd" id="2_qxos5"]
+
+[node name="TwitchPlatform" instance=ExtResource("1_2jyqk")]
+script = ExtResource("2_qxos5")

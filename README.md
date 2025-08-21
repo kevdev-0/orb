@@ -1,6 +1,8 @@
 # Orb - Streaming Platform Integration Layer
 This is meant to compatible across multiple platforms and integrates them in a manner built for the Godot Engine's scene tree architecture. This addon is heavily inspired by [GIFT](https://github.com/issork/gift).
 
+Expect slow progress.
+
 Supported Platforms:
 - Twitch (Planned)
 - YouTube (Planned)

@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b44vk8lr36bry"]
+
+[ext_resource type="Script" uid="uid://dcn64mffayuok" path="res://test/streaming_test_scene.gd" id="1_5xqg3"]
+
+[node name="TestScene" type="Node2D"]
+script = ExtResource("1_5xqg3")
+
+[node name="PlatformGoesHere" type="Node" parent="."]
+
+[node name="ChatBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0

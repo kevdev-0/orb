@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://doldju2gyki75"]
+
+[ext_resource type="Script" uid="uid://du1tx24lt8h2b" path="res://test/ui_elements/chat_msg_ui.gd" id="1_7uwae"]
+
+[node name="ChatMessageUI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_7uwae")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="UserNameLabel" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "Person"
+
+[node name="PlatformLabel" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "(Test)"
+
+[node name="SemicolonLabel" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = ":"
+
+[node name="MessageLabel" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "Something Goes here"

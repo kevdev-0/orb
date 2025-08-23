@@ -5,3 +5,4 @@
 
 [node name="TwitchPlatform" instance=ExtResource("1_2jyqk")]
 script = ExtResource("2_qxos5")
+platform_handle = "Twitch"

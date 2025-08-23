@@ -7,5 +7,4 @@ enum PLATFORMS {
 }
 
 enum OAUTH_METHOD {
-	
 }

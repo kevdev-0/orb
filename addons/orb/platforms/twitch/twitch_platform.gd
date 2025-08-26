@@ -6,7 +6,7 @@ var supported_flows = [
 	,
 ]
 
-# TODO: Actual flow logic :)
+# TODO: Rewrite to support auth method being a child within the scene tree.
 func _ready() -> void:
 	if not (auth_flow in supported_flows):
 		assert("Unsupported auth flow chosen. Failing!")

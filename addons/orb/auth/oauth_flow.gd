@@ -1,5 +1,5 @@
 class_name OAuthFlow
-extends RefCounted
+extends Node
 # Base class for auth flows.
 
 signal token_received(token_data)

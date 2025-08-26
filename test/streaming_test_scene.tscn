@@ -5,7 +5,7 @@
 [node name="TestScene" type="Node2D"]
 script = ExtResource("1_5xqg3")
 
-[node name="PlatformGoesHere" type="Node" parent="."]
+[node name="PlatformUnderTest" type="Node" parent="."]
 
 [node name="ChatBoxContainer" type="VBoxContainer" parent="."]
 offset_right = 40.0

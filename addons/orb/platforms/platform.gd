@@ -12,3 +12,4 @@ func _ready() -> void:
 	
 func auth() -> void:
 	pass
+	

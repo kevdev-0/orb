@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjsuwyfcn8u2x"]
+
+[ext_resource type="PackedScene" uid="uid://b44vk8lr36bry" path="res://test/streaming_test_scene.tscn" id="1_qkal5"]
+[ext_resource type="Script" uid="uid://bwkp20r5w58lx" path="res://addons/orb/platforms/twitch/twitch_platform.gd" id="2_6p32u"]
+
+[node name="TwitchWithRedirectTest" instance=ExtResource("1_qkal5")]
+
+[node name="PlatformUnderTest" parent="." index="0"]
+script = ExtResource("2_6p32u")
+platform_handle = "Twitch"

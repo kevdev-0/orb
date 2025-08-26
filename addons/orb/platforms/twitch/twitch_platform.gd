@@ -1,11 +1,12 @@
 extends Platform
 class_name TwitchPlatform
 
-var supported_flows = []
+var supported_flows = [
+	Shared.OAUTH_METHOD.BROWSER_REDIRECT
+	,
+]
 
 # TODO: Actual flow logic :)
 func _ready() -> void:
-	associated_platform = Shared.PLATFORMS.TWITCH
-	
 	if not (auth_flow in supported_flows):
 		assert("Unsupported auth flow chosen. Failing!")

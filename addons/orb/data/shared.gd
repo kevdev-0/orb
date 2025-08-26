@@ -7,4 +7,5 @@ enum PLATFORMS {
 }
 
 enum OAUTH_METHOD {
+	BROWSER_REDIRECT
 }
